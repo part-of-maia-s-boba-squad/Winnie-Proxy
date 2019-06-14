@@ -1,14 +1,13 @@
-# Project Name
+# Open Grub
 
-> Project description
+> A user can search for a restaurant based on location, cuisine, or restaurant’s name and visit the restaurant’s page to get an overview of what the restaurant has to offer like photos of their dishes, their menu options, customers’ reviews, and be able to make a reservation.
 
 ## Related Projects
 
-  - Reservation: https://github.com/freeseats/wfong-service-reservations
-  - Top-Bar: https://github.com/freeseats/exzerone-search-bar
-  - Menu, Related Restaurants, Side-Bar: https://github.com/freeseats/Menu-Related-SideBar
-  - Restaurant Photos: https://github.com/freeseats/matthewjdiaz1-photo-service
-  - Reviews: https://github.com/freeseats/slhodak-reviews-and-impressions
+  - Reservation: https://github.com/part-of-maia-s-boba-squad/reservations_module
+  - Restaurant Info & Menu: https://github.com/part-of-maia-s-boba-squad/Winnie-Menu
+  - Restaurant Photos: https://github.com/part-of-maia-s-boba-squad/Photos
+  - Reviews: https://github.com/part-of-maia-s-boba-squad/reviews_service
 
 ## Table of Contents
 
