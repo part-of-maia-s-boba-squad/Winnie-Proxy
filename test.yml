@@ -1,8 +1,8 @@
 config:
-  target: 'http://localhost:3003'
+  target: 'http://localhost:3000'
   phases:
     - duration: 15
-      arrivalRate: 100
+      arrivalRate: 150
   processor: './resMenuPost.js'
 scenarios:
   - weight: 99/1000

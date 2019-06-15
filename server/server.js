@@ -1,6 +1,8 @@
+require('newrelic');
+
 const express = require('express');
 const path = require('path');
-proxy = require('http-proxy-middleware');
+const proxy = require('http-proxy-middleware');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -14,3 +16,5 @@ app.get('/restaurant/:id', (req, res) => {
 });
 
 app.listen(port, () => console.log('Listening on Port:', port));
+
+// pm2 start -i -1 server/server.js --node-args="--max-old-space-size=8192"
